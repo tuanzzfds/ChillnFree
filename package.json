@@ -4,6 +4,7 @@
    "version": "1.0.0",
    "private": true,
    "scripts": {
+      "build": "next build && next export",
       "start": "nodemon ./bin/www",
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
